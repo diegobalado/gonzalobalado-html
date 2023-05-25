@@ -636,7 +636,7 @@
     const randomNumber = Math.floor(Math.random() * maxImages) + 1;
     console.log({ width, isMobile, maxImages, randomNumber });
     const hero = document.getElementById('hero');
-    hero.style.setProperty('background', `url("./assets/img/hero-${randomNumber}${isMobile ? '-mobile' : ''}.jpg") center center${isMobile ? ' / cover' : ''}`);
+    hero.style.setProperty('background', `#888 url("./assets/img/hero-${randomNumber}${isMobile ? '-mobile' : ''}.jpg") center center${isMobile ? ' / cover' : ''}`);
   </script>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
