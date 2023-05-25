@@ -248,6 +248,7 @@ h6 {
   height: 100vh;
   background-size: cover;
   background-blend-mode: multiply;
+  padding: 0;
 }
 
 /* #hero:before {
