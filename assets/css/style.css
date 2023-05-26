@@ -104,6 +104,14 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+#header .profile p {
+  font-size: 18px;
+  margin-top: 8px;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+}
+
 #header .profile h1 a,
 #header .profile h1 a:hover {
   color: #fff;
